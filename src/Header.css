@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,600;1,300&display=swap");
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #131921;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+a {
+  text-decoration: none;
+}
+
+.header__logo {
+  width: 100px;
+  object-fit: contain;
+  margin: 0 20px;
+  margin-top: 18px;
+}
+
+.header__search {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  /* border-radius: 24px; */
+}
+
+.header__searchInput {
+  height: 12px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+}
+
+.header__searchIcon {
+  padding: 5px;
+  height: 22px !important;
+  background-color: #cd9042;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+  padding: 5px;
+  color: white;
+  border: 1px solid #131921;
+  cursor: pointer;
+}
+
+.header__option:hover {
+  border: 1px solid white;
+  border-radius: 3.5px;
+}
+
+.header__optionLineOne {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 10px;
+  font-weight: 300;
+}
+.header__optionLineTwo {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.header__optionBasket {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.header__basketCount {
+  margin: 0px 10px;
+  text-decoration: none;
+}
+
+.header__addressIcon {
+  height: 22px !important;
+}
